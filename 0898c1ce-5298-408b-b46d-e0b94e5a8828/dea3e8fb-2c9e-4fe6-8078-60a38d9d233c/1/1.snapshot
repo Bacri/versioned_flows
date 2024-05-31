@@ -1,0 +1,227 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "d4ddf3eb-3e12-3b6c-ba86-4809b3a5bbdd",
+        "inputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "d4ddf3eb-3e12-3b6c-ba86-4809b3a5bbdd",
+          "identifier" : "ae8d416a-d775-3a91-a750-e34d720da8c0",
+          "instanceIdentifier" : "d0bf3892-018f-1000-ffff-fffff7a47ec1",
+          "name" : "12",
+          "position" : {
+            "x" : 728.0,
+            "y" : 330.0
+          },
+          "scheduledState" : "ENABLED",
+          "type" : "INPUT_PORT"
+        } ],
+        "instanceIdentifier" : "d0be9efd-018f-1000-0000-000039187bb7",
+        "labels" : [ ],
+        "name" : "test1",
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "d4ddf3eb-3e12-3b6c-ba86-4809b3a5bbdd",
+          "identifier" : "6d2867aa-b375-3970-b87f-e6b74d8a5cf7",
+          "instanceIdentifier" : "d109ad60-018f-1000-0000-00003eb36337",
+          "name" : "34",
+          "position" : {
+            "x" : 1865.0,
+            "y" : 517.0
+          },
+          "scheduledState" : "ENABLED",
+          "type" : "OUTPUT_PORT"
+        } ],
+        "position" : {
+          "x" : 1280.0,
+          "y" : 304.0
+        },
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "d4ddf3eb-3e12-3b6c-ba86-4809b3a5bbdd",
+          "identifier" : "c6706dce-8192-3e1c-8408-ed747068cb6a",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "d109efdb-018f-1000-ffff-ffffa7be045d",
+          "labels" : [ ],
+          "name" : "teset43545",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 1314.0,
+            "y" : 702.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        } ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-amqp-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.16.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "d4ddf3eb-3e12-3b6c-ba86-4809b3a5bbdd",
+          "identifier" : "c67c6795-0bfb-3a6b-931d-01284252bef6",
+          "instanceIdentifier" : "d0bf4597-018f-1000-0000-00004f614ce4",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "ConsumeAMQP",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1195.0,
+            "y" : 383.0
+          },
+          "properties" : {
+            "ssl-client-auth" : "NONE",
+            "batch.size" : "10",
+            "Port" : "5672",
+            "cert-authentication" : "false",
+            "auto.acknowledge" : "false",
+            "Host Name" : "localhost",
+            "header.separator" : ",",
+            "AMQP Version" : "0.9.1",
+            "remove.curly.braces" : "False"
+          },
+          "propertyDescriptors" : {
+            "ssl-context-service" : {
+              "displayName" : "SSL Context Service",
+              "identifiesControllerService" : true,
+              "name" : "ssl-context-service",
+              "sensitive" : false
+            },
+            "User Name" : {
+              "displayName" : "User Name",
+              "identifiesControllerService" : false,
+              "name" : "User Name",
+              "sensitive" : false
+            },
+            "ssl-client-auth" : {
+              "displayName" : "Client Auth",
+              "identifiesControllerService" : false,
+              "name" : "ssl-client-auth",
+              "sensitive" : false
+            },
+            "batch.size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "batch.size",
+              "sensitive" : false
+            },
+            "Port" : {
+              "displayName" : "Port",
+              "identifiesControllerService" : false,
+              "name" : "Port",
+              "sensitive" : false
+            },
+            "Brokers" : {
+              "displayName" : "Brokers",
+              "identifiesControllerService" : false,
+              "name" : "Brokers",
+              "sensitive" : false
+            },
+            "cert-authentication" : {
+              "displayName" : "Use Client Certificate Authentication",
+              "identifiesControllerService" : false,
+              "name" : "cert-authentication",
+              "sensitive" : false
+            },
+            "auto.acknowledge" : {
+              "displayName" : "Auto-Acknowledge Messages",
+              "identifiesControllerService" : false,
+              "name" : "auto.acknowledge",
+              "sensitive" : false
+            },
+            "Host Name" : {
+              "displayName" : "Host Name",
+              "identifiesControllerService" : false,
+              "name" : "Host Name",
+              "sensitive" : false
+            },
+            "header.separator" : {
+              "displayName" : "Header Separator",
+              "identifiesControllerService" : false,
+              "name" : "header.separator",
+              "sensitive" : false
+            },
+            "AMQP Version" : {
+              "displayName" : "AMQP Version",
+              "identifiesControllerService" : false,
+              "name" : "AMQP Version",
+              "sensitive" : false
+            },
+            "Virtual Host" : {
+              "displayName" : "Virtual Host",
+              "identifiesControllerService" : false,
+              "name" : "Virtual Host",
+              "sensitive" : false
+            },
+            "Queue" : {
+              "displayName" : "Queue",
+              "identifiesControllerService" : false,
+              "name" : "Queue",
+              "sensitive" : false
+            },
+            "remove.curly.braces" : {
+              "displayName" : "Remove Curly Braces",
+              "identifiesControllerService" : false,
+              "name" : "remove.curly.braces",
+              "sensitive" : false
+            },
+            "Password" : {
+              "displayName" : "Password",
+              "identifiesControllerService" : false,
+              "name" : "Password",
+              "sensitive" : true
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.amqp.processors.ConsumeAMQP",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
