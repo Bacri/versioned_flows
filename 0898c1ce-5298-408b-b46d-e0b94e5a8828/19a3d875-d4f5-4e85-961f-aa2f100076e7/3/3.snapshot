@@ -1,0 +1,142 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "252ce322-879a-3c1e-a57b-59c4f206298b",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "d10a5344-018f-1000-ffff-ffffe95df284",
+        "labels" : [ ],
+        "name" : "4456",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 1410.0,
+          "y" : 755.0
+        },
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "252ce322-879a-3c1e-a57b-59c4f206298b",
+          "identifier" : "0a67548e-16a1-3206-9134-b79f5eb6af18",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "ab296300-420b-3adf-a064-8b78909e4ed3",
+          "labels" : [ ],
+          "name" : "6y576",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 824.0,
+            "y" : 144.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        }, {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "252ce322-879a-3c1e-a57b-59c4f206298b",
+          "identifier" : "468a56fe-74a4-3f6f-a6e4-952d6980c091",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "d120d817-018f-1000-0000-00007fb7b51e",
+          "labels" : [ ],
+          "name" : "4356",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 821.0,
+            "y" : 771.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        }, {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "252ce322-879a-3c1e-a57b-59c4f206298b",
+          "identifier" : "166e8d62-5825-3805-a457-f7e2e53c970d",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "d1112251-018f-1000-ffff-ffffa02c6d93",
+          "labels" : [ ],
+          "name" : "5465",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 1224.0,
+            "y" : 552.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        }, {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "252ce322-879a-3c1e-a57b-59c4f206298b",
+          "identifier" : "5091b9b5-f434-3ba4-ae1f-187a57e04226",
+          "inputPorts" : [ ],
+          "instanceIdentifier" : "d11ad668-018f-1000-ffff-ffffe781edbd",
+          "labels" : [ ],
+          "name" : "32",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 1649.0,
+            "y" : 644.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { }
+        } ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
